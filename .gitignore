@@ -1,0 +1,21 @@
+# Dati del dataset DeSegMa-it (non ridistribuibili) e file derivati
+df_train.csv
+df_val.csv
+df_test.csv
+*.pkl
+
+# Embeddings itWaC (file pesante, vedi README per il download)
+*.sqlite
+
+# File temporanei generati dai notebook
+train_docs/
+val_docs/
+test_docs/
+*.zip
+
+# Sistema e ambienti
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+venv/
